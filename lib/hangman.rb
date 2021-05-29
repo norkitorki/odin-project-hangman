@@ -83,5 +83,3 @@ class Hangman
     end
   end
 end
-
-Hangman.new.play
