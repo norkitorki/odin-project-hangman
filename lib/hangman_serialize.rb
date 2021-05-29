@@ -7,7 +7,7 @@ module HangmanSerialize
   MAX_SAVES = 10
 
   def save_game
-    clear_saves # only keep MAX_SAVES number of saves files
+    clear_saves # only keep MAX_SAVES number of save files
 
     data = {}
     instance_variables.each do |var|
