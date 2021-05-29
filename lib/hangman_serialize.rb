@@ -1,6 +1,5 @@
 require 'yaml'
 require 'base64'
-require 'time'
 
 # hangman game serialization
 module HangmanSerialize
