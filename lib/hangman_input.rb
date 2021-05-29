@@ -9,7 +9,7 @@ module HangmanInput
     puts 'Would you like to load a previously saved game or start a new one?' \
            "\n\n1 - to start a new game\n2 - to load a saved game"
 
-    mode = input until ('1'..'3').include?(mode)
+    mode = input until ('1'..'2').include?(mode)
     mode
   end
 
