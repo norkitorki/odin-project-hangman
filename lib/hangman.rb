@@ -22,9 +22,9 @@ class Hangman
     system('clear')
 
     loop do
-      break game_over if game_over?
-
       break save_game if mismatches.delete('save')
+
+      break game_over if game_over?
 
       turn
     end
