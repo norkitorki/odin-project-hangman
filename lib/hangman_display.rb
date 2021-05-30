@@ -22,8 +22,8 @@ module HangmanDisplay
   end
 
   def word_display(string)
-    line   = Array.new(string.length, '━━━')
-    word   = string.chars.join(' │ ')
+    line = Array.new(string.length, '━━━')
+    word = string.chars.join(' │ ')
 
     "┏#{line.join('┯')}┓\n┃ #{word} ┃\n┗#{line.join('┷')}┛"
   end
